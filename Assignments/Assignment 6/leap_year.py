@@ -7,8 +7,13 @@ def leap_year(year):
     - Take in a parameter called year and return “Is a leap year” or “Not a leap year”
     """
     # Write your code here. 
-
-if __name__ == "__main__":
+    years is divisable
+static boolean check(years)
+    int years= str.length
+    int last = str.charAt(n - 1) - '0';
+        int second_last = str.charAt(n - 2) - '0';
+        return ((second_last * 10 + last) % 4 == 0);
+if __years__ == "divisable by 4":
     years = [2000, 1994, 1912, 3002, 1700, 1400]
     answers = []
     for year in years:
