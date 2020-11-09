@@ -16,4 +16,14 @@ if __name__ == "__main__":
     for number in numbers:
         answers.append(prime_or_composite(number))
     
+    if num > 1:
+   # check for factors
+   for i in range(2,num):
+       if (num % i) == 0:
+           print(num,"is not a prime number")
+           print(i,"times",num//i,"is",num)
+           break
+   else:
+       print(num,"is a prime number")
+    
     print(answers)
