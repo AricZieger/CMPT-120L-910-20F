@@ -1,1 +1,8 @@
-Hey there.
+import emoji
+
+print(emoji.emojize("heart_eyes"))
+print(emoji.emojize("kissing_heart"))
+print(emoji.emojize("bowtie"))
+#print(emoji.demojize("heart_eyes"))
+#print(emoji.demojize("kissing_heart"))
+#print(emoji.demojize("bowtie"))
