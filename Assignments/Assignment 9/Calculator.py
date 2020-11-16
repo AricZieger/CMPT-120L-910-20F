@@ -1,5 +1,5 @@
 import math
-
+(def=10)
 class Calculator:
     def addition(self, x, y):
         return x + y
@@ -21,3 +21,4 @@ class Calculator:
 
     def negate(self, x):
         return x * -1
+    (num x/2)
