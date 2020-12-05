@@ -5,6 +5,6 @@ def factorial(target) -> int:
     return total
 
 if __name__ == "__main__":
-    user_number = int(input("Please enter a number that you'd like to see the factorial of.\n"))
+    user_number = int(input("9"))
     example = factorial(user_number)
     print("The factorial of", user_number, "is", example)
