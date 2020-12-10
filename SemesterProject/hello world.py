@@ -1,4 +1,8 @@
-from textblob import TextBlob
-print(TextBlob("this is amazing").sentiment)
-msg = "hello World"
-print(msg)
+print("Hello World")
+
+def HelloWorld(name: str) -> None:
+    print("Hello", name + "!")
+
+
+if __name__ == "__main__":
+    HelloWorld("Roy")
